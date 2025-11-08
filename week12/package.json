@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
+  "scripts": {
+    "backend": "json-server --watch ./data/db.json --port 5001",
+    "dev":"vite",
+    "build":"vite build",
+    "preview":"vite preview"
+  },
+  "author": "Parichat Saelao",
+  "license": "ISC",
+
+  "devDependencies": {
+    "vite": "^7.1.12"
+  }
+}
